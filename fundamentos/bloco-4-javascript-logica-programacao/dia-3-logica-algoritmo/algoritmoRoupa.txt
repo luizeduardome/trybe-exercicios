@@ -1,0 +1,15 @@
+1. Abrir o guarda-roupas
+2. Escolher as camisas
+3. Escolher as calças
+4. Escolher acessórios
+5. Escolher sapatos
+6. Experimentar vestimenta
+7. Experimentar acesssórios
+8. Experimentar sapatos
+9. Roupas estão adequadas para o evento?
+10. Vestir roupa
+11. Sapatos e acessórios estão adequados para o evento?
+12. Utiliza-los
+13. Guardar excedente
+14. Fechar guarda-roupas
+15. Ir para festa
