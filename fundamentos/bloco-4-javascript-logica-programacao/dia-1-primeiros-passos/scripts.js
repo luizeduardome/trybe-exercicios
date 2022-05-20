@@ -75,7 +75,10 @@ else {
     console.log("Fora do momento síncrono.");
 }
 
-// Operadores lógicos
+// OPERADORES LÓGICOS
+
+// OPERADOR AND
+
 const comida = 'pão na chapa';
 const bebida = 'cafezinho';
 
@@ -144,6 +147,52 @@ if (currentHour >= 22) {
 }
 
 console.log(message);
+
+
+// OPERADOR OR 
+
+const bebidaPrincipal = 'cafezinho';
+const bebidaAlternativa = 'suco de laranja';
+
+if (bebidaPrincipal === 'cafezinho' || bebidaAlternativa === 'suco de laranja') {
+    console.log("Obrigado por me atender :D")
+} else {
+    console.log("Ei, eu não pedi isso!")
+}
+
+console.log(true || true); //true
+console.log(true || false); // true
+console.log(false || true); // true
+console.log(false || false); //false
+
+// 1- Crie uma variável chamada "weekDay" que recebe a string "quarta-feira".
+// 2- Implemente condicionais para que:
+
+
+/* 
+Se nossa variável "weekDay" for "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira" ou "sexta-feira", imprima 
+"Oba, mais um dia de aprendizado na Trybe >:D". 
+*/
+
+// Se for algum dia de fim de semana, imprima "FINALMENTE, descanso merecido UwU".
+
+let weekDay = "sábado";
+
+if (weekDay === "segunda-feira" || weekDay === "terça-feira" || weekDay === "quarta-feira" || weekDay === "quinta-feira" || weekDay === "sexta-feira") {
+    console.log("Oba, mais um dia de aprendizado na Trybe >:D");
+} else {
+    console.log("FINALMENTE, descanso merecido UwU");
+}
+
+// OPERADOR NOT
+
+const squirtle = "melhor pokemon inicial";
+console.log(!squirtle); // false
+
+console.log(!42); // false
+console.log(!0); // true
+// O número 0 tem o valor "falsy" no javaScript. Logo, seu oposto é true.
+
 
 // VÍDEO 5
 
