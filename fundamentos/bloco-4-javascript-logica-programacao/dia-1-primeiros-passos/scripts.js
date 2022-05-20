@@ -48,3 +48,29 @@ console.log(typeof patientId, typeof isEnrolled, typeof patientInfo, typeof pati
 // console.log(typeof patientEmail);
 console.log(typeof patientAge);
 console.log(typeof patientId);
+
+
+// VÍDEO 4
+
+// if - se 
+// else - senão
+
+// if (condicao) {
+//     // codigo
+// }
+// else if (outraCondicao) {
+//     // outra condicao
+// }
+let trybe = 15;
+if (trybe >= 14 && trybe < 14.4) {
+    console.log("Esquenta");
+}
+else if (trybe >= 16.30 && trybe < 17.50) {
+    console.log("Aula ao vivo");
+}
+else if (trybe >= 19.4 && trybe < 20) {
+    console.log("Fechamento");
+}
+else {
+    console.log("Fora do momento síncrono.");
+}
