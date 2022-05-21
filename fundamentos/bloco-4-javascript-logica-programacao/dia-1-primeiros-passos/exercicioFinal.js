@@ -46,3 +46,39 @@ if (valor1 > valor2) {
 } else {
     console.log("NULL");
 }
+
+/*
+EXERCÍCIO 3
+
+Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes 
+com os valores que serão comparados.
+
+*/
+
+const a1 = 25;
+const a2 = 33;
+const a3 = 45;
+
+if (a1 > a2 && a1 > a3) {
+    console.log(a1);
+} else if (a2 > a1 && a2 > a3) {
+    console.log(a2);
+} else if (a3 > a1 && a3 > a2) {
+    console.log(a3)
+} else {
+    console.log("0");
+}
+
+/*
+Faça um programa que, dado um valor definido numa constante, retorne 
+"positive" se esse valor for positivo, "negative" se for negativo 
+e "zero" caso contrário.
+*/
+
+const numbers = 25;
+
+if (numbers >= 0) {
+    console.log("positive");
+} else if (numbers < 0) {
+    console.log("negative");
+}
