@@ -193,6 +193,55 @@ console.log(!42); // false
 console.log(!0); // true
 // O número 0 tem o valor "falsy" no javaScript. Logo, seu oposto é true.
 
+// Valores nulos...
+console.log(!null); // true
+
+// Valores indefinidos...
+console.log(!undefined); // true
+
+
 
 // VÍDEO 5
+// Switch e Case
 
+let trafficLight = "verde";
+
+switch (trafficLight) {
+    case "vermelho":
+        console.log("pare");
+        break;
+
+    case "amarelo":
+        console.log("atenção");
+        break;
+
+    case "verde":
+        console.log("siga");
+        break;
+    
+    default:
+        console.log("valor não identificado");
+}
+
+
+// 1 - Crie uma variável para armazenar o estado da pessoa candidata no processo seletivo,
+// que pode ser: 'aprovada', 'lista' ou 'reprovada';
+
+let candidatoSeletivo = "verde";
+
+switch (candidatoSeletivo) {
+    case "vermelho":
+        console.log("reprovado");
+        break;
+
+    case "amarelo":
+        console.log("lista");
+        break;
+
+    case "verde":
+        console.log("aprovado");
+        break;
+
+    default:
+        console.log("não se aplica.")
+}
