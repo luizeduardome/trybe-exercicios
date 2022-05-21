@@ -70,6 +70,8 @@ if (a1 > a2 && a1 > a3) {
 }
 
 /*
+EXERCÍCIO 4 
+
 Faça um programa que, dado um valor definido numa constante, retorne 
 "positive" se esse valor for positivo, "negative" se for negativo 
 e "zero" caso contrário.
@@ -81,4 +83,100 @@ if (numbers >= 0) {
     console.log("positive");
 } else if (numbers < 0) {
     console.log("negative");
+}
+
+/*
+EXERCÍCIO 5
+
+🚀 Faça um programa que defina três constantes com os valores dos três ângulos internos de um triângulo.
+Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. 
+Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
+*/
+
+const ladoA = 60;
+const ladoB = 60;
+const ladoC = 60;
+
+let somaAngulo = ladoA + ladoB + ladoC;
+
+let angulosPositivos  = ladoA > 0 && ladoB > 0 && ladoC > 0;
+
+if (angulosPositivos ) {
+    if (somaAngulo === 180) {
+        console.log(true);
+    } else {
+        console.log(false);
+    };
+} else {
+    console.log("Erro: ângulo inválido")
+}
+
+
+/*
+EXERCÍCIO 6 
+Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+
+Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas 
+quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
+
+Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).
+
+Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
+
+Exemplo: bishop (bispo) -> diagonals (diagonais).
+*/
+
+let pecaXadrez = "rei";
+
+switch (pecaXadrez) {
+    case "rei":
+        console.log("(bispo) -> Pode mover-se em qualquer direção, porem apenas uma casa por vez.");
+        break;
+    
+    case "dama":
+        console.log("(dama) -> Pode mover-se em qualquer direção (vertical, horizontal e diagonal), porém quantas casas quiser, desde que estejam livres.");
+        break;
+    
+    case "torre":
+        console.log("(torre) -> Move-se em linha reta, tanto na vertical quanto na horizontal, quantas casas quiser.");
+        break;
+    
+    case "peão":
+        console.log("(cavalo) -> O movimento do cavalo forma um 'L'");
+        break;
+
+    default:
+        console.log("Erro");
+};
+
+/*
+EXERCÍCIO 7
+
+Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
+Porcentagem >= 90 -> A
+Porcentagem >= 80 -> B
+Porcentagem >= 70 -> C
+Porcentagem >= 60 -> D
+Porcentagem >= 50 -> E
+Porcentagem < 50 -> F
+O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
+
+*/
+const notaConvert = 76;
+
+
+if (notaConvert >= 90) {
+    console.log("Conceito A");
+} else if (notaConvert >= 80) {
+    console.log("Conceito B");
+} else if (notaConvert >= 70) {
+    console.log("Conceito C");
+} else if (notaConvert >= 60) {
+    console.log("Conceito D");
+} else if (notaConvert >= 50) {
+    console.log("Conceito E");
+} else if (notaConvert < 50) {
+    console.log("Conceito F");
+} else if (notaConvert < 0 && notaConvert > 100) {
+    console.log("A nota está errada!")
 }
