@@ -102,3 +102,31 @@ let groceryList = ['Arroz', 'Feijão', 'Alface', 'Tomate'];
 for (lista = 0; lista < groceryList.length; lista += 1) {
     console.log(groceryList[lista]);
 }
+
+// LOOP FOR/OF
+
+// PRÁTICA 2
+let numeros = [1, 2, 3, 4, 5, 6];
+for (let numero of numeros) {
+    console.log(numero);
+}
+
+// PRÁTICA 3
+let word = 'hello';
+for (let letter of word) {
+    console.log(letter);
+}
+
+// PRÁTICA 4
+let arrOfNumbers = [10, 20, 30];
+for (let sum of arrOfNumbers) {
+    sum += 1;
+    console.log(sum);
+}
+
+// EXERCÍCIO 1
+// Utilize o for/of para imprimir os elementos da lista names com o console.log():
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+for (let ordem of names) {
+    console.log(ordem);
+}
