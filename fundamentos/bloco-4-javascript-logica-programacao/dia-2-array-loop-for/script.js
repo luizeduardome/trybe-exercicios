@@ -68,3 +68,37 @@ let menu2 = ['Home', 'Serviços', 'Portfólio', 'Links']
 menu2.push("Contato");
 console.log(menu2);
 
+// VÍDEO 1 - 4.2
+var numero = 9;
+
+for (contador = 1; contador < 9; contador += 1) {
+    console.log(numero * contador);
+}
+
+
+var listaDeNomes = ['Joana', 'Maria', 'Lucas'];
+
+for (var indice = 0; indice < listaDeNomes.length; indice += 1) {
+    var mensagem = 'Boas vindas, ' + listaDeNomes[indice] + '!';
+    console.log(mensagem);
+}
+
+// Prática 1
+let cars = ['Saab', 'Volvo', 'BMW'];
+console.log(cars[0]); // Saab
+console.log(cars[1]); // Volvo
+console.log(cars[2]); // BMW
+
+// Com o loop for
+for (let index = 0; index < cars.length; index += 1) {
+    let novaMensagem = 'Os carros disponíveis são: ' + cars[index] + '.';
+    console.log(novaMensagem);
+}
+
+// EXERCÍCIO 1
+// Utilize o for para imprimir os elementos da lista groceryList com o console.log():
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Tomate'];
+
+for (lista = 0; lista < groceryList.length; lista += 1) {
+    console.log(groceryList[lista]);
+}
