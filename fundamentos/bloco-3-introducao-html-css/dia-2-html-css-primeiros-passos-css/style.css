@@ -1,0 +1,35 @@
+h2 {
+    color: brown;
+    font-size: 2em;
+}
+
+body {
+    background-color: lightslategrey;
+    font-size: 20px;
+}
+
+#extinto {
+    background-color: antiquewhite;
+}
+
+#info {
+    color: brown;
+}
+
+.list-style {
+    background-color: #0a7e51;
+    color: antiquewhite;
+    font-weight: bold;
+    /*font-style: italic;*/
+    line-height: 40px; /*Altera o tamanho do parágrafo.*/
+    text-align: left;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+h3 {
+    color: goldenrod;
+}
