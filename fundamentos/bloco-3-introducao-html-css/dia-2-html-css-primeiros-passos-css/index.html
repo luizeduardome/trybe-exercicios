@@ -6,6 +6,31 @@
 		  name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
 	<title>CSS Básico</title>
+	<style>
+		h2 {
+			color: brown;
+		}
+		
+		body {
+			background-color: lightslategrey;
+		}
+		
+		#extinto {
+			background-color: antiquewhite;
+		}
+		
+		#info {
+			color: brown;
+		}
+		
+		.list-style {
+			background-color: #0a7e51;
+			color: antiquewhite;
+		}
+	
+	
+	</style>
+
 </head>
 <body>
 
@@ -13,7 +38,7 @@
 
 <img alt="Sequoia - As maiores árvores do planeta!" src="./images/203745-Sequoia-National-Park.jpg" width="350">
 
-<h2>Descrição</h2>
+<h2 id="info">Descrição</h2>
 
 <p>
 	A sequoia-gigante é a maior árvore do <strong>mundo</strong> em termos de volume.
@@ -23,7 +48,7 @@
 </p>
 <h2>Expécie extinta</h2>
 
-<p>
+<p id="extinto">
 	Apesar de ter sido dito que existiam <br>
 	apenas duas espécies de sequoias no mundo, <br>
 	ainda tem uma terceira: A Metasequoia glyptostroboides. <br>
@@ -37,7 +62,7 @@
 	Locais onde predominam
 </h3>
 
-<ul>
+<ul class="list-style">
 	<li>Yosemite National Park</li>
 	<li>Kings Canyon National Park</li>
 	<li>Sequoia National Park</li>
@@ -46,7 +71,7 @@
 <h3>
 	Árvores comuns no Brasil
 </h3>
-<ol>
+<ol class="list-style">
 	<li>Aroeira</li>
 	<li>Jatobá</li>
 	<li>Pau-Brasil</li>
