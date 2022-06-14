@@ -1,0 +1,19 @@
+body{
+    font-family: fantasy;
+    color: rgb(3, 174, 213);
+}
+
+#praia{
+    width: 450px;
+    position: absolute;
+}
+
+#jim-carrey{
+    width: 250px;
+    position: absolute;
+}
+
+#oculos{
+    width: 100px;
+    position: absolute;
+}
