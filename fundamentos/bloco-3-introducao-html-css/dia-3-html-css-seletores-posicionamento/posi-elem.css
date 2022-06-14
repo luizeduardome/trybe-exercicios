@@ -1,19 +1,49 @@
-body{
-    font-family: fantasy;
+body {
+    font-family: "Lucida Sans", fantasy;
     color: rgb(3, 174, 213);
 }
 
-#praia{
+#praia {
     width: 450px;
     position: absolute;
+    top: 20px;
+    left: 10px;
+    z-index: 1;
 }
 
-#jim-carrey{
+#jim-carrey {
     width: 250px;
     position: absolute;
+    z-index: 2;
+    top: 173px;
 }
 
-#oculos{
+#oculos {
     width: 100px;
     position: absolute;
+    left: 90px;
+    z-index: 3;
+    top: 205px;
+}
+
+h1 {
+    position: absolute;
+    z-index: 4;
+    left: 30px;
+}
+
+#song {
+    position: absolute;
+    z-index: 5;
+    top: 350px;
+
+}
+
+.coqueiro {
+    width: 100px;
+    float: left;
+    z-index: 6;
+    margin-right: 10px;
+    top: 500px;
+
 }
