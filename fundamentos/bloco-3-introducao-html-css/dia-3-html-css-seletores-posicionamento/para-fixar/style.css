@@ -7,9 +7,10 @@
 .goomba {
     width: 100px;
     position: absolute;
-    top: 377px;
-    left: 60px;
+    top: 337px;
+    left: 120px;
     z-index: 2;
+    color: dodgerblue;
 }
 
 .baloon {
