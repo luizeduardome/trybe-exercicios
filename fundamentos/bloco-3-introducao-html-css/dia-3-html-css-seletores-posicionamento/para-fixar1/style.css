@@ -1,0 +1,15 @@
+h1, p {
+    text-align: center;
+}
+
+li:hover{
+    background-color: goldenrod;
+}
+
+li:active{
+    font-family: "JetBrains Mono Light", sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}

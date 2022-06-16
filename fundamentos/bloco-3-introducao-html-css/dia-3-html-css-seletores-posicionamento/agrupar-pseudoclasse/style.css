@@ -16,6 +16,7 @@ div {
 .perigo {
     background-color: #cd5f59;
     color: whitesmoke;
+
 }
 
 p.perigo {
@@ -33,6 +34,7 @@ li:hover {
 
 h1:hover {
     background-color: deepskyblue;
+    transition: unset;
 }
 
 li:active {
@@ -41,4 +43,5 @@ li:active {
 
 h1:hover {
     color: #cd5f59;
+    transition: margin-right 5s;
 }
