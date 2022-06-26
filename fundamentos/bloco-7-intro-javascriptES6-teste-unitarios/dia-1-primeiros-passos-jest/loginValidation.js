@@ -4,7 +4,7 @@ const greetingMessage = (user) => {
 };
 
 const loginErrorMessage = (user) => {
-  return `Pessoa usuária '${user}' não encontrada, tente novamente!`;
+  return `Usuário '${user}' não encontrado, tente novamente!`;
 };
 
 const user = {
