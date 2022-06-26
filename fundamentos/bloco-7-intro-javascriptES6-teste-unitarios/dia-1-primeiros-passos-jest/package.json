@@ -1,0 +1,15 @@
+{
+  "name": "dia-1-primeiros-passos-jest",
+  "version": "1.0.0",
+  "description": "Arquivo de teste do exercício 1 para o Bloco 7 - Primeiros passos com Jest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Luiz Eduardo de Figueiredo Menezes",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
