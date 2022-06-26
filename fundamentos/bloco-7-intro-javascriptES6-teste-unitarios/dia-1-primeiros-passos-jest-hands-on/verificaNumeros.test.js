@@ -22,3 +22,5 @@ describe('Requisito 3', () => {
         expect(false).toEqual(numeros([" "]));
     });
 });
+
+/*Exercício 1 - Ok*/
