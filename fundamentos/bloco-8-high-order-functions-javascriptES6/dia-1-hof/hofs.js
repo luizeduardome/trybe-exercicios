@@ -11,7 +11,7 @@ const div = (num7, num8) => num7 / num8; // divisão
 console.log(sum(10, 5));
 console.log(sub(30, 20));
 
-/* Outra forma de realizar soma e subtração */
+/* Outra forma de realizar cálculos básicos matemáticos */
 
 const calculator = (func) => func(10, 5);
 console.log(calculator(sum));
